@@ -1,0 +1,17 @@
+print("Welcome to my first program")
+print()
+print()
+print("Please login to use the program")
+while True:
+    print("Login")
+    name = input()
+    if name == "Filip":
+        break
+print("Thank you")
+print("Enter password")
+
+while True:
+    password = input()
+    if password == "blabla":
+            break
+print("Acces granted")
